@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api/v1',
+  baseURL: 'http://b991-2405-201-680b-d85b-4922-7af1-ac6a-5b7d.ngrok-free.app/api/v1',
 });
 
 export const getTodayTask = async () => {
